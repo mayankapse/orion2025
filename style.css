@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .image {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-image: url('home1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+}
+
+.wrapper .section {
+    height: 100vh;
+}
+
+.wrapper .section:nth-child(1) {
+    background: #27e2c1;
+}
+.wrapper .section:nth-child(2) {
+    background: #ffffff60;
+}
+.wrapper .section:nth-child(3) {
+    background: url(valo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px;
+    z-index: 2;
+}
+.wrapper .section:nth-child(4) {
+    background: url(bgmi.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px;
+    z-index: 2;
+}
+.wrapper .section:nth-child(5) {
+    background: url(ff.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 10px;
+    z-index: 2;
+}
